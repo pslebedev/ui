@@ -33,7 +33,7 @@ describe ('Авторизация', () => {
         await page.click('#react-burger-menu-btn')
         await page.click('#logout_sidebar_link');
         const locator = await page.locator("#login-button");
-        await expect(locator).toHaveAttribute('value','Login')
+        assert.strictEqual(locator, 'Login', 'Не удалось разлогиниться')
     
     });
     //  it ('Авторизоваться стандартным  пользователем', async () => {

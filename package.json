@@ -28,6 +28,7 @@
     "playwright": "^1.22.2"
   },
   "devDependencies": {
-    "playwright-expect": "^0.1.2"
+    "playwright-expect": "^0.1.2",
+    "playwright-test": "^8.0.0"
   }
 }
